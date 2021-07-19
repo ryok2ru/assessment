@@ -1,0 +1,17 @@
+body{
+  /* Google などで「カラーコード 一覧」と検索すると、様々なカラーコードの一覧が見つかる */
+  background-color: #04a6eb;
+  color: #fdffff;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+};
+button{
+  padding: 5px 20px;
+  background-color: #337ab7;
+  border-style: none;
+};
+input{
+  /* ボタンのサイズに合わせるため */
+  height: 20px;
+};
