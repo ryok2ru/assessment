@@ -51,9 +51,6 @@ assessmentButton.onclick = () => {
   tweetDivided.appendChild(script);
 };
 
-const nameStorange = assessmentButton.onclick();
-console.log(nameStorange);
-
 //enterkeyを押した際に診断処理が実行される処理 & 文字数が1の場合にbackspacekeyを押した際に診断結果がクリアされる処理
 document.onkeydown = event => {
   const userName = userNameInput.value;
@@ -64,6 +61,7 @@ document.onkeydown = event => {
     resultReset();
   };
 };
+
 // 診断結果のクリア
 resultClear.onclick = () => {resultReset()};
 
