@@ -65,6 +65,8 @@ document.onkeydown = event => {
   };
 };
 // 診断結果のクリア
+resultClear.onclick = () => {resultReset()};
+
 function resultReset () {
   removeAllChildren(resultDivided);
   userNameInput.value = '';
