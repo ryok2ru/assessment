@@ -60,7 +60,7 @@ document.onkeydown = event => {
   if(event.key === 'Enter'){
     assessmentButton.onclick();
   };
-  if(event.key === 'Backspace' && userName.length === 1){
+  if(event.key === 'Backspace' && userName.length <= 1){
     resultReset();
   };
 };
